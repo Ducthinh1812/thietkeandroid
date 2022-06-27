@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="edu.fpt.asm.ui.khoanthu.KhoanThuFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_khoanthu" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="edu.fpt.asm.ui.khoanchi.KhoanChiFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_khoanchi" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="edu.fpt.asm.ui.thongke.ThongKeFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_thongke" />
+    <fragment
+        android:id="@+id/nav_gioithieu"
+        android:name="edu.fpt.asm.gioithieuFragment"
+        android:label="Giới Thiệu"
+        tools:layout="@layout/fragment_gioithieu" />
+    <fragment android:id="@+id/nav_thoat" />
+
+</navigation>

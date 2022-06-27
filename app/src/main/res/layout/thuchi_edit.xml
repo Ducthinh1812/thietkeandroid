@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/teal_200"
+        android:gravity="center"
+        android:text="Sửa Thu Chi"
+        android:textColor="@color/white"
+        android:textSize="40dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/editmatdsua"
+        android:hint="Mã Người Dùng"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/editTieudesua"
+        android:hint="Mục Đích"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/editngaysua"
+        android:hint="Ngày"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/editTiensua"
+        android:hint="Số Tiền"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/editMotasua"
+        android:hint="Mô tả"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="match_parent"
+            android:id="@+id/buttonHuysuathuchi"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="hủy" />
+
+        <Button
+            android:layout_weight="1"
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonsuathuchi"
+            android:text="Sửa" />
+    </LinearLayout>
+</LinearLayout>

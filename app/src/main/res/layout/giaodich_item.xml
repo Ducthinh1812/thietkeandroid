@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="8dp"
+    android:id="@+id/cvgiaodich">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tieude"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ma"
+            android:text="Tiêu đề:"
+            android:textColor="@color/oregen"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/ngay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tieude"
+            android:layout_alignParentLeft="true"
+            android:text="Ngày:"
+            android:textColor="@color/oregen"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tien"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ngay"
+            android:layout_alignParentLeft="true"
+            android:text="Tiền:"
+            android:textColor="@color/oregen"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/mota"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tien"
+            android:layout_alignParentLeft="true"
+            android:text="Mô tả:"
+            android:textColor="@color/oregen"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/ma"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+
+            android:text="mã giao dịch:"
+            android:textColor="@color/oregen"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/editIcon"
+            android:src="@drawable/ic_baseline_edit_24"
+            android:layout_alignParentRight="true" />
+
+        <ImageView
+            android:id="@+id/deleteIcon"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_below="@id/editIcon"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_baseline_delete_24" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

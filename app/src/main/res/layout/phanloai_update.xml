@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/teal_200"
+        android:gravity="center"
+        android:text="Phân Loại"
+        android:textColor="@color/white"
+        android:textSize="40dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/editTenLoai"
+        android:hint="Tên Phân Loại"
+        android:layout_height="wrap_content" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:id="@+id/spinnerTrangThai" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="match_parent"
+            android:id="@+id/buttonHuy"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="hủy" />
+
+        <Button
+            android:layout_weight="1"
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonThem"
+            android:text="Sửa" />
+    </LinearLayout>
+</LinearLayout>

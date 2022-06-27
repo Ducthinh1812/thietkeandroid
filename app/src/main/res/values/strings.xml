@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">asm</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Nguyễn Đức Thịnh</string>
+    <string name="nav_header_subtitle">nguyenducthinh@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">cài đặt</string>
+
+    <string name="menu_home">Khoản Thu</string>
+    <string name="menu_gallery">Khoản Chi</string>
+    <string name="menu_slideshow">Thống Kê</string>
+    <string name="gioithieu">Giới Thiệu</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
